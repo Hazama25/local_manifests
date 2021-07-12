@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="arrowlavender"
+          fetch="https://github.com/ArrowOS-Devices"
+          revision="arrow-11.0" />
+
+    <!-- Device-specific sources -->
+    <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="arrowlavender" />
+    <project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="arrowlavender" />
+    <project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="arrowlavender" />
+    <project name="android_vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="arrowlavender" />
+    <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="arrowlavender" />
+</manifest>
